@@ -13,9 +13,7 @@ app.post("/users",(req,res) => {
 })
 
 app.get("/users",(req,res) => {
-    res.json({
-        message: "List of users"
-    })
+    res.send(name)
    
 })
 app.listen(3001, () => {
